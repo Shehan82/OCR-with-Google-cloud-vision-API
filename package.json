@@ -1,0 +1,23 @@
+{
+  "name": "sinhala-ocr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shehan82/Sinhala-OCR-API.git"
+  },
+  "author": "shehan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shehan82/Sinhala-OCR-API/issues"
+  },
+  "homepage": "https://github.com/Shehan82/Sinhala-OCR-API#readme",
+  "dependencies": {
+    "@google-cloud/vision": "^2.3.2",
+    "express": "^4.17.1"
+  }
+}
