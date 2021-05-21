@@ -8,9 +8,9 @@ const client = new vision.ImageAnnotatorClient({
 });
 
 client.textDetection("./love2.jpg").then((results) => {
-  const labels = results[0].labelAnnotations;
-  console.log("Labels:");
-  labels.forEach((label) => console.log(label.description));
+  //   const labels = results[0].labelAnnotations;
+  //   console.log("Labels:");
+  //   labels.forEach((label) => console.log(label.description));
 
   console.log(results);
 });
