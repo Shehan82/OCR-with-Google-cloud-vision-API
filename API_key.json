@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "ceyntra",
+  "private_key_id": "49865942f680a52b9ab0424b8e3bf65262dd798f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEuwIBADANBgkqhkiG9w0BAQEFAASCBKUwggShAgEAAoIBAQDYTO/rFeo4zBhF\n1Kw2D/E6dAHAfEDshRARhqSmiC179lbKQ5Gr9l8tbCwIEtqbFUBXBG4HMpHlQCGj\nBZw0e/0cjMlp3bGlpbt4xQlwsdCgBGTCwdLFFned2ajRPzJXpHRk9Q8sTmESVt10\nyZZXLHjcBuYKUL6KTEX9wtf4IqlYJ/aTKbI/ijjN4pD+yXStm8HFA/yTHy5YUuBB\n8uZnP08+qM++qHu7Kb40W9+XOZvToa/sZsfoprMoL1YCJ6bVRQ1UyCosyVhIV8sv\nD9kvHYppzlx8dcXYyivCvR+IvaltgLsXAMxaCI9GaG5aFAwDg8nEVKSrTorvC4+x\nnju7BZC5AgMBAAECgf8EEzfcQ8KaGDJ0gM433+HQ/v/9olmmiWEknL1lwGIursYq\n9aynb0HCMPLajquzIMUXhAPB3ADP+EPdKvUHapGLcEbo8Mwu5nBwhU2uIpfJpxB2\nDRU0VojDAFDhGm08zyFKnj+hFhAUxG6uj2x62XFN9tsvYmHd9jNjP9hAEZJt9T4a\ngM5xMWjsgtOXNPcJkAYJFhJVUMZRsfJPsHhrbOAzm98cifSKDypXoppxJmbxHAKU\nyUNIGDyUr51w1AO9iKcaqGHnsKJTIJkPhH1m/44XIUGgJ40xhZk82bOVI/T1MNvW\ni1Sfv1U91nMY2pNi6jwXxzJWgWDiZn5aGroGf9kCgYEA8Dqvi0VR7VbGjEptcc1m\nF8CuSnC5SdcikRucwD8SFedxNP61i+f27qMhyJWxignbnolO71o0OFpD77L56y7x\nOhQf1mT4BVjiRllH/Q5dXhdd0j94YkI3Ec9YTG+utmwLF738EhPKfoMQ7T1esm51\nDwpRusYLhWXZgBHhoPWpLnUCgYEA5oAaff0bz6xNmt3dWE9vRAuSkAdRDlpfC3Ex\nJn9fR22rwug5tI4+z3v3KIzJ6czWGAKGm2Nh/sKCsNVBqOeI3ENd6fdrNzVIoaWZ\nfmPu8H++FjHMYdwr0WETII52MfoG7innxVlgmolJrwlWb4m10zcVb1+kjTl6Rmpb\nv5HB2LUCgYEAxDeLDvyt8GgCgLCCOIQGsbwGIHN2RKPebhvZqwVZJl8GjrzFWOM9\nRKomfAoZG6D1q8aHnOVW5fiEqRLNI5YSHtg1MQ8DroptN/zQ2heTl7kKPyLsl4Vy\nKa/sdXJ7iDEz1k6tx642paM0fjK0WJX0MzbAjwgYfPs17m+slaZSa8kCgYBgAaGH\nMoJ/+HOGery0CLn+bJeKOBHx2YBXArmHIGxuEucE0rceVlUhFLA4ipObNz9BVuP8\nGuP5Ock3oEut72pY3BJk3jIhF6d99Ly/IR6nu31QP0OyywLRPg66c7wVSt/SGVA5\nKeYL1/0B0/DVmlVKeVoLPpoKXJNqeuhmHW7RNQKBgDzpzX4t7laoQA1TCAqdPMhH\nJXW56ccMzGpuLVuey0+7VeQpq5AkljCN1ZL2tzByjjpiF2wCo98eFrYl62THGlLw\nSNCoiKKfrlGLsR90Q7+OFeCiwuHdmgT7pkIdpQtri1YcXM3rUVLKMqTCVxZGgYwW\nYUWWVAI8oGKbMpiubly0\n-----END PRIVATE KEY-----\n",
+  "client_email": "ceynra@ceyntra.iam.gserviceaccount.com",
+  "client_id": "115493376584041347145",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ceynra%40ceyntra.iam.gserviceaccount.com"
+}
