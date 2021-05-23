@@ -24,16 +24,18 @@ const client = new vision.ImageAnnotatorClient({
   keyFilename: "API_key.json",
 });
 
-client.documentTextDetection("./my.png").then((results) => {
-  //   const labels = results[0].labelAnnotations;
-  //   console.log("Labels:");
-  //   labels.forEach((label) => console.log(label.description));
-
-  console.log(results[0].fullTextAnnotation.text);
-});
-
 app.post("/upload", upload.single("profile"), (req, res) => {
   console.log(req.file);
+
+  client.documentTextDetection(req.file.path).then((results) => {
+    //   const labels = results[0].labelAnnotations;
+    //   console.log("Labels:");
+    //   labels.forEach((label) => console.log(label.description));
+    res.status(200).send(results[0].fullTextAnnotation.text);
+    console.log(results[0].fullTextAnnotation.text);
+  });
 });
 
-app.listen(8000, "127.0.0.1", () => console.log("server runing"));
+
+
+app.listen(8000, () => console.log("server runing"));
