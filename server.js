@@ -31,11 +31,14 @@ app.post("/upload", upload.single("profile"), (req, res) => {
     //   const labels = results[0].labelAnnotations;
     //   console.log("Labels:");
     //   labels.forEach((label) => console.log(label.description));
-    res.status(200).send(results[0].fullTextAnnotation.text);
-    console.log(results[0].fullTextAnnotation.text);
+    if (results[0].fullTextAnnotation != null) {
+      res.status(200).send(results[0].fullTextAnnotation.text);
+    } else {
+      res.status(200).send("No text Detection in the photo, try again !");
+    }
+
+    // console.log(results[0].fullTextAnnotation.text);
   });
 });
-
-
 
 app.listen(8000, () => console.log("server runing"));
